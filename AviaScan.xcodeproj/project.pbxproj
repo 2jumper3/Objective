@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE078D3B233CF64D0097D8C5 /* NetWorkAFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE078D3A233CF64D0097D8C5 /* NetWorkAFViewController.m */; };
+		CE36D5E1232FAEB4008A8078 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE36D5E0232FAEB4008A8078 /* DataManager.m */; };
+		CE36D5E4232FAF0C008A8078 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = CE36D5E3232FAF0C008A8078 /* City.m */; };
+		CE36D5E7232FAF45008A8078 /* Airports.m in Sources */ = {isa = PBXBuildFile; fileRef = CE36D5E6232FAF45008A8078 /* Airports.m */; };
+		CE36D5EA232FAF6B008A8078 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = CE36D5E9232FAF6B008A8078 /* Country.m */; };
+		CE41D21A23290CE90034CD55 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE41D21923290CE90034CD55 /* SettingsViewController.m */; };
+		CE41D2202329126F0034CD55 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE41D21F2329126F0034CD55 /* NavigationViewController.m */; };
+		CE41D223232914EB0034CD55 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE41D222232914EB0034CD55 /* FirstViewController.m */; };
+		CE42796A2341E06300000A96 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4279692341E06300000A96 /* TabBarViewController.m */; };
+		CE42796D2341E7E600000A96 /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42796C2341E7E600000A96 /* MapsViewController.m */; };
+		CE4279722341F77300000A96 /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4279712341F77300000A96 /* LocationService.m */; };
+		CE4F3873233B48CA00AB93D0 /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4F3872233B48CA00AB93D0 /* NetworkService.m */; };
+		CE4F3876233B516200AB93D0 /* FlyRateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4F3875233B516200AB93D0 /* FlyRateModel.m */; };
+		CE5D83CA2339FDFC00D64763 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5D83C92339FDFC00D64763 /* MainViewController.m */; };
+		CE5D83CE233A197F00D64763 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5D83CD233A197F00D64763 /* MainTableViewCell.m */; };
+		CE5D83D1233A36CA00D64763 /* FromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5D83D0233A36CA00D64763 /* FromViewController.m */; };
+		CE5D83D4233A36D400D64763 /* ToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5D83D3233A36D400D64763 /* ToViewController.m */; };
+		CE65564623449F03002C0B7B /* SearchMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE65564523449F03002C0B7B /* SearchMapViewController.m */; };
+		CE6556492344CBE8002C0B7B /* AdvacedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6556482344CBE8002C0B7B /* AdvacedViewController.m */; };
+		CE65564C2345F129002C0B7B /* ImageControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE65564B2345F129002C0B7B /* ImageControllerViewController.m */; };
+		CE6C873823279534006549A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C873723279534006549A5 /* AppDelegate.m */; };
+		CE6C874023279536006549A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6C873F23279536006549A5 /* Assets.xcassets */; };
+		CE6C874323279536006549A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6C874123279536006549A5 /* LaunchScreen.storyboard */; };
+		CE6C874623279536006549A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C874523279536006549A5 /* main.m */; };
+		CEF66ECF233DE0CE000FED11 /* PreviewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF66ECE233DE0CE000FED11 /* PreviewTableViewCell.m */; };
+		D298F39C5EB73278138175AF /* libPods-AviaScan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5472DE0FCEAFEC2AE8FC29 /* libPods-AviaScan.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B5472DE0FCEAFEC2AE8FC29 /* libPods-AviaScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AviaScan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53905FD603826095493A763 /* Pods-AviaScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AviaScan.release.xcconfig"; path = "Target Support Files/Pods-AviaScan/Pods-AviaScan.release.xcconfig"; sourceTree = "<group>"; };
+		CE078D39233CF64D0097D8C5 /* NetWorkAFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkAFViewController.h; sourceTree = "<group>"; };
+		CE078D3A233CF64D0097D8C5 /* NetWorkAFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkAFViewController.m; sourceTree = "<group>"; };
+		CE36D5DF232FAEB4008A8078 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		CE36D5E0232FAEB4008A8078 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		CE36D5E2232FAF0C008A8078 /* City.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		CE36D5E3232FAF0C008A8078 /* City.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		CE36D5E5232FAF45008A8078 /* Airports.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Airports.h; sourceTree = "<group>"; };
+		CE36D5E6232FAF45008A8078 /* Airports.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airports.m; sourceTree = "<group>"; };
+		CE36D5E8232FAF6B008A8078 /* Country.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		CE36D5E9232FAF6B008A8078 /* Country.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		CE41D21823290CE90034CD55 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		CE41D21923290CE90034CD55 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		CE41D21E2329126F0034CD55 /* NavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		CE41D21F2329126F0034CD55 /* NavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		CE41D221232914EB0034CD55 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CE41D222232914EB0034CD55 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CE4279682341E06300000A96 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		CE4279692341E06300000A96 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		CE42796B2341E7E600000A96 /* MapsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
+		CE42796C2341E7E600000A96 /* MapsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
+		CE4279702341F77300000A96 /* LocationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
+		CE4279712341F77300000A96 /* LocationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
+		CE4F3871233B48CA00AB93D0 /* NetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
+		CE4F3872233B48CA00AB93D0 /* NetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkService.m; sourceTree = "<group>"; };
+		CE4F3874233B516200AB93D0 /* FlyRateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyRateModel.h; sourceTree = "<group>"; };
+		CE4F3875233B516200AB93D0 /* FlyRateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyRateModel.m; sourceTree = "<group>"; };
+		CE5D83C82339FDFC00D64763 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CE5D83C92339FDFC00D64763 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CE5D83CC233A197F00D64763 /* MainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		CE5D83CD233A197F00D64763 /* MainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		CE5D83CF233A36CA00D64763 /* FromViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FromViewController.h; sourceTree = "<group>"; };
+		CE5D83D0233A36CA00D64763 /* FromViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FromViewController.m; sourceTree = "<group>"; };
+		CE5D83D2233A36D400D64763 /* ToViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToViewController.h; sourceTree = "<group>"; };
+		CE5D83D3233A36D400D64763 /* ToViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToViewController.m; sourceTree = "<group>"; };
+		CE65564423449F03002C0B7B /* SearchMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchMapViewController.h; sourceTree = "<group>"; };
+		CE65564523449F03002C0B7B /* SearchMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchMapViewController.m; sourceTree = "<group>"; };
+		CE6556472344CBE8002C0B7B /* AdvacedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvacedViewController.h; sourceTree = "<group>"; };
+		CE6556482344CBE8002C0B7B /* AdvacedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvacedViewController.m; sourceTree = "<group>"; };
+		CE65564A2345F129002C0B7B /* ImageControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageControllerViewController.h; sourceTree = "<group>"; };
+		CE65564B2345F129002C0B7B /* ImageControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageControllerViewController.m; sourceTree = "<group>"; };
+		CE6C873323279534006549A5 /* AviaScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AviaScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6C873623279534006549A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE6C873723279534006549A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE6C873F23279536006549A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE6C874223279536006549A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE6C874423279536006549A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6C874523279536006549A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEF66ECD233DE0CE000FED11 /* PreviewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewTableViewCell.h; sourceTree = "<group>"; };
+		CEF66ECE233DE0CE000FED11 /* PreviewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreviewTableViewCell.m; sourceTree = "<group>"; };
+		E4802ECE140F8EE3A33F4989 /* Pods-AviaScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AviaScan.debug.xcconfig"; path = "Target Support Files/Pods-AviaScan/Pods-AviaScan.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6C873023279534006549A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D298F39C5EB73278138175AF /* libPods-AviaScan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16CBCF47C2B0B3539D0147DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4802ECE140F8EE3A33F4989 /* Pods-AviaScan.debug.xcconfig */,
+				B53905FD603826095493A763 /* Pods-AviaScan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		385042C50FC6C8099B05783D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B5472DE0FCEAFEC2AE8FC29 /* libPods-AviaScan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE36D5DE232FAE98008A8078 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CE4F386D233B472A00AB93D0 /* Network */,
+				CE5D83CB233A195E00D64763 /* Cells */,
+				CE36D5EB232FAFF1008A8078 /* Json */,
+				CE36D5DF232FAEB4008A8078 /* DataManager.h */,
+				CE36D5E0232FAEB4008A8078 /* DataManager.m */,
+				CE36D5E2232FAF0C008A8078 /* City.h */,
+				CE36D5E3232FAF0C008A8078 /* City.m */,
+				CE36D5E5232FAF45008A8078 /* Airports.h */,
+				CE36D5E6232FAF45008A8078 /* Airports.m */,
+				CE36D5E8232FAF6B008A8078 /* Country.h */,
+				CE36D5E9232FAF6B008A8078 /* Country.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CE36D5EB232FAFF1008A8078 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		CE42796E2341E7EF00000A96 /* Navigation+TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE41D21E2329126F0034CD55 /* NavigationViewController.h */,
+				CE41D21F2329126F0034CD55 /* NavigationViewController.m */,
+				CE4279682341E06300000A96 /* TabBarViewController.h */,
+				CE4279692341E06300000A96 /* TabBarViewController.m */,
+			);
+			path = "Navigation+TabBar";
+			sourceTree = "<group>";
+		};
+		CE4F386D233B472A00AB93D0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE4F3871233B48CA00AB93D0 /* NetworkService.h */,
+				CE4F3872233B48CA00AB93D0 /* NetworkService.m */,
+				CE4F3874233B516200AB93D0 /* FlyRateModel.h */,
+				CE4F3875233B516200AB93D0 /* FlyRateModel.m */,
+				CE078D39233CF64D0097D8C5 /* NetWorkAFViewController.h */,
+				CE078D3A233CF64D0097D8C5 /* NetWorkAFViewController.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE5D83CB233A195E00D64763 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D83CC233A197F00D64763 /* MainTableViewCell.h */,
+				CE5D83CD233A197F00D64763 /* MainTableViewCell.m */,
+				CEF66ECD233DE0CE000FED11 /* PreviewTableViewCell.h */,
+				CEF66ECE233DE0CE000FED11 /* PreviewTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE5F40292327E2880098F9F2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE65564323449595002C0B7B /* LocationService */,
+				CE42796E2341E7EF00000A96 /* Navigation+TabBar */,
+				CE711442232F82B40047D7B4 /* TravelDirections */,
+				CE41D21823290CE90034CD55 /* SettingsViewController.h */,
+				CE41D21923290CE90034CD55 /* SettingsViewController.m */,
+				CE41D221232914EB0034CD55 /* FirstViewController.h */,
+				CE41D222232914EB0034CD55 /* FirstViewController.m */,
+				CE5D83C82339FDFC00D64763 /* MainViewController.h */,
+				CE5D83C92339FDFC00D64763 /* MainViewController.m */,
+				CE6556472344CBE8002C0B7B /* AdvacedViewController.h */,
+				CE6556482344CBE8002C0B7B /* AdvacedViewController.m */,
+				CE65564A2345F129002C0B7B /* ImageControllerViewController.h */,
+				CE65564B2345F129002C0B7B /* ImageControllerViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE65564323449595002C0B7B /* LocationService */ = {
+			isa = PBXGroup;
+			children = (
+				CE42796B2341E7E600000A96 /* MapsViewController.h */,
+				CE42796C2341E7E600000A96 /* MapsViewController.m */,
+				CE65564423449F03002C0B7B /* SearchMapViewController.h */,
+				CE65564523449F03002C0B7B /* SearchMapViewController.m */,
+				CE4279702341F77300000A96 /* LocationService.h */,
+				CE4279712341F77300000A96 /* LocationService.m */,
+			);
+			path = LocationService;
+			sourceTree = "<group>";
+		};
+		CE6C872A23279534006549A5 = {
+			isa = PBXGroup;
+			children = (
+				CE6C873523279534006549A5 /* AviaScan */,
+				CE6C873423279534006549A5 /* Products */,
+				16CBCF47C2B0B3539D0147DE /* Pods */,
+				385042C50FC6C8099B05783D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6C873423279534006549A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C873323279534006549A5 /* AviaScan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6C873523279534006549A5 /* AviaScan */ = {
+			isa = PBXGroup;
+			children = (
+				CE36D5DE232FAE98008A8078 /* Manager */,
+				CE5F40292327E2880098F9F2 /* ViewControllers */,
+				CE6C873623279534006549A5 /* AppDelegate.h */,
+				CE6C873723279534006549A5 /* AppDelegate.m */,
+				CE6C873F23279536006549A5 /* Assets.xcassets */,
+				CE6C874123279536006549A5 /* LaunchScreen.storyboard */,
+				CE6C874423279536006549A5 /* Info.plist */,
+				CE6C874523279536006549A5 /* main.m */,
+			);
+			path = AviaScan;
+			sourceTree = "<group>";
+		};
+		CE711442232F82B40047D7B4 /* TravelDirections */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D83CF233A36CA00D64763 /* FromViewController.h */,
+				CE5D83D0233A36CA00D64763 /* FromViewController.m */,
+				CE5D83D2233A36D400D64763 /* ToViewController.h */,
+				CE5D83D3233A36D400D64763 /* ToViewController.m */,
+			);
+			path = TravelDirections;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6C873223279534006549A5 /* AviaScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6C874923279536006549A5 /* Build configuration list for PBXNativeTarget "AviaScan" */;
+			buildPhases = (
+				115D0E7294615D053F1727DE /* [CP] Check Pods Manifest.lock */,
+				CE6C872F23279534006549A5 /* Sources */,
+				CE6C873023279534006549A5 /* Frameworks */,
+				CE6C873123279534006549A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AviaScan;
+			productName = AviaScan;
+			productReference = CE6C873323279534006549A5 /* AviaScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6C872B23279534006549A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Sergey;
+				TargetAttributes = {
+					CE6C873223279534006549A5 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = CE6C872E23279534006549A5 /* Build configuration list for PBXProject "AviaScan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE6C872A23279534006549A5;
+			productRefGroup = CE6C873423279534006549A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6C873223279534006549A5 /* AviaScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6C873123279534006549A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6C874323279536006549A5 /* LaunchScreen.storyboard in Resources */,
+				CE6C874023279536006549A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		115D0E7294615D053F1727DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AviaScan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6C872F23279534006549A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE36D5E4232FAF0C008A8078 /* City.m in Sources */,
+				CE4F3876233B516200AB93D0 /* FlyRateModel.m in Sources */,
+				CE36D5E7232FAF45008A8078 /* Airports.m in Sources */,
+				CE65564623449F03002C0B7B /* SearchMapViewController.m in Sources */,
+				CE42796D2341E7E600000A96 /* MapsViewController.m in Sources */,
+				CE078D3B233CF64D0097D8C5 /* NetWorkAFViewController.m in Sources */,
+				CE36D5E1232FAEB4008A8078 /* DataManager.m in Sources */,
+				CE4F3873233B48CA00AB93D0 /* NetworkService.m in Sources */,
+				CE65564C2345F129002C0B7B /* ImageControllerViewController.m in Sources */,
+				CE36D5EA232FAF6B008A8078 /* Country.m in Sources */,
+				CE5D83CE233A197F00D64763 /* MainTableViewCell.m in Sources */,
+				CE41D223232914EB0034CD55 /* FirstViewController.m in Sources */,
+				CE5D83CA2339FDFC00D64763 /* MainViewController.m in Sources */,
+				CE41D2202329126F0034CD55 /* NavigationViewController.m in Sources */,
+				CE42796A2341E06300000A96 /* TabBarViewController.m in Sources */,
+				CE41D21A23290CE90034CD55 /* SettingsViewController.m in Sources */,
+				CE6C874623279536006549A5 /* main.m in Sources */,
+				CE5D83D4233A36D400D64763 /* ToViewController.m in Sources */,
+				CE6C873823279534006549A5 /* AppDelegate.m in Sources */,
+				CEF66ECF233DE0CE000FED11 /* PreviewTableViewCell.m in Sources */,
+				CE6556492344CBE8002C0B7B /* AdvacedViewController.m in Sources */,
+				CE4279722341F77300000A96 /* LocationService.m in Sources */,
+				CE5D83D1233A36CA00D64763 /* FromViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE6C874123279536006549A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6C874223279536006549A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6C874723279536006549A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE6C874823279536006549A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6C874A23279536006549A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4802ECE140F8EE3A33F4989 /* Pods-AviaScan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R79A6C4N5;
+				INFOPLIST_FILE = AviaScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sergey.AviaScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AviaScan/ViewControllers/AviaScan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE6C874B23279536006549A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53905FD603826095493A763 /* Pods-AviaScan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R79A6C4N5;
+				INFOPLIST_FILE = AviaScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sergey.AviaScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AviaScan/ViewControllers/AviaScan-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6C872E23279534006549A5 /* Build configuration list for PBXProject "AviaScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6C874723279536006549A5 /* Debug */,
+				CE6C874823279536006549A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6C874923279536006549A5 /* Build configuration list for PBXNativeTarget "AviaScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6C874A23279536006549A5 /* Debug */,
+				CE6C874B23279536006549A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6C872B23279534006549A5 /* Project object */;
+}
